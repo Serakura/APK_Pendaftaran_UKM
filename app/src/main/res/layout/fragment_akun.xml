@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/text_notifications">
+        <TextView
+            android:id="@+id/text_notifications"
+            android:layout_width="412dp"
+            android:layout_height="49dp"
+            android:text="Profile"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:background="@color/blue"
+            android:textColor="@color/dark"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="172dp"
+            android:layout_height="132dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/usr" />
+
+        <TextView
+            android:id="@+id/akun_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_user_focused"
+            android:drawablePadding="10dp"
+            android:text="Nama"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_id_card_focused"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="NIM"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_jenkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_genders"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_agama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_phone_focused"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:text="Agama"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_tempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_home_focused"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Tempat Lahir"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_home_focused"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Tanggal Lahir"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_prodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_home_focused"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Prodi"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_angkatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_home_focused"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Angkatan"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/akun_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_textview"
+            android:drawableLeft="@drawable/ic_home_focused"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Email"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/dark"
+            android:text="Log out"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
